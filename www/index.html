@@ -3,7 +3,6 @@
 <head>
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
 
-    <!-- Required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -11,7 +10,6 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
 
-    <!-- Your app title -->
     <title>Life Chooser</title>
 
     <!-- This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
@@ -28,10 +26,10 @@
 
 <body>
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
-    <div class="statusbar-overlay"></div>
+    <div class="statusbar-overlay">222</div>
 
     <!-- Panels overlay-->
-    <div class="panel-overlay"></div>
+    <div class="panel-overlay">111</div>
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal">
         <div class="content-block">
@@ -42,7 +40,6 @@
 
     <!-- Views -->
     <div class="views">
-        <!-- Your main view, should have "view-main" class -->
         <div class="view view-main">
             <!-- Top Navbar-->
             <div class="navbar">
@@ -64,21 +61,12 @@
                 <div data-page="index" class="page">
                     <!-- Scrollable page content -->
                     <div class="page-content">
-                        <div class="content-block">
-                            <input value="enter your question"></input>
-                        </div>
+                        <div class="graybox"></div>
+                        <input class="view-item value="enter your question"></input><br>
+                        <button class="view-item" id = "getAnswer">GO</button>
+                        <div class="answerbox"><text class="bigfont">TO BE</text></div>
+                        To be,or not to be,that is the question.
                     </div>
-                </div>
-            </div>
-            <!-- Bottom Toolbar-->
-            <div class="buttonbar">
-              <button id = "setLocalStorage">GO</button>
-            </div>
-            <div class="toolbar">
-                <div class="toolbar-inner">
-                    <!-- Toolbar links -->
-                    <a href="#" class="link">Link 1</a>
-                    <a href="#" class="link">Link 2</a>
                 </div>
             </div>
         </div>

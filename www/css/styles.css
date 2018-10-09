@@ -9,7 +9,36 @@
 
    See https://github.com/apache/cordova-plugin-statusbar
 */
-
+.page{
+    background: white;
+}
 .statusbar-overlay {
     background: #000000;
+}
+.page-content{
+    text-align: center;
+}
+.view-item{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.redbox{
+    background: rgb(196, 0, 0);
+}
+.bluebox{
+    background: rgb(0, 0, 173);
+}
+.answerbox{
+    text-align: center;
+    height: 50%;
+    background: rgb(97, 167, 255);
+}
+.bigfont{
+    color: white;
+    font-size: 50px;
+}
+.contenttext{
+    font-size: 12px;
+    
 }
